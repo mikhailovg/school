@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension version="1.5" type="template" client="site">
+	<name>university</name>
+	<creationDate>July 2010</creationDate>
+	<author>Shape5.com</author>
+	<copyright>Shape5</copyright>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>http://www.shape5.com</authorUrl>
+	<version>2.0</version>
+	<description><![CDATA[
+	
+	<h1>Shape 5 - University 2010</h1>
+
+	<br/>
+	<img src="../templates/university/template_thumbnail.png" align="left" hspace="10" style="padding-right:10px;"/>
+	This template is for members of the Shape 5 Joomla Template Club only, it is not free or open to the public domain.  <br /><br />
+	For tutorials and additional information check out:<br /> <a href="http://www.shape5.com/demo/university">University Demo</a>.
+	<br />
+	<br /><a target="_blank" href="http://www.shape5.com">Click here</a> to visit Shape5.com]]></description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>footer.php</filename>
+		<filename>s5_suckerfish.php</filename>
+		<filename>s5_no_moo_menu.php</filename>	
+		<filename>js/IEsuckerfish.js</filename>
+		<filename>js/s5_suckerfish.js</filename>
+		<filename>js/s5_textmenu.js</filename>
+		<filename>js/multibox/multibox.js</filename>
+		<filename>js/multibox/mootools124/multibox.js</filename>
+		<filename>js/multibox/mootools124/overlay.js</filename>
+		<filename>js/multibox/AC_RunActiveContent.js</filename>
+		<filename>js/multibox/overlay.js</filename>
+		<filename>js/multibox/mp3player.swf</filename>
+		<filename>js/multibox/flvplayer.swf</filename>
+		<filename>js/s5_no_moo_menu.js</filename>
+		<filename>js/jquery13.js</filename>
+		<filename>js/jquery_no_conflict.js</filename>
+		<filename>js/tooltips.js</filename>
+		<filename>js/s5_fading_no_moo_menu.js</filename>
+		<filename>js/s5_scroll_down_no_moo_menu.js</filename>		
+		<filename>html/modules.php</filename>
+		<filename>html/com_search/search/s5_live_search.php</filename>
+		<filename>html/mod_login/default.php</filename>
+		<filename>html/mod_poll/default.php</filename>
+		<filename>html/mod_breadcrumbs/default.php</filename>		
+		<filename>html/mod_newsflash/_item.php</filename>
+		<filename>html/mod_newsflash/default.php</filename>
+		<filename>html/mod_newsflash/horiz.php</filename>
+		<filename>html/mod_newsflash/vert.php</filename>
+	</files>
+	<images>
+		<filename>images/arrow.png</filename>
+		<filename>images/arrow2.png</filename>
+		<filename>images/con_address.png</filename>
+		<filename>images/con_fax.png</filename>			
+		<filename>images/con_info.png</filename>
+		<filename>images/con_tel.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>	
+		<filename>images/emailButton.png</filename>
+		<filename>images/indent1.png</filename>		
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>	
+		<filename>images/Shape5_University_arrow.png</filename>
+		<filename>images/radiobutton.png</filename>			
+		<filename>images/s5_lsearch_topbot.png</filename>	
+		<filename>images/calendar.png</filename>
+		<filename>images/Shape5_University_ddmiddle.png</filename>
+		<filename>images/Shape5_University_modboxbr.png</filename>	
+		<filename>images/Shape5_University_modboxml.png</filename>
+		<filename>images/Shape5_University_modboxmr.png</filename>
+		<filename>images/Shape5_University_modboxtm.png</filename>	
+		<filename>images/Shape5_University_modboxtr.png</filename>
+		<filename>images/Shape5_University_modboxbl.png</filename>	
+		<filename>images/Shape5_University_modboxbm.png</filename>
+		<filename>images/Shape5_University_glow.png</filename>
+		<filename>images/Shape5_University_menuright.png</filename>
+		<filename>images/Shape5_University_modboxtl.png</filename>
+		<filename>images/Shape5_loginarrow.png</filename>			
+		<filename>images/Shape5_University_blround.png</filename>	
+		<filename>images/Shape5_University_bmround.png</filename>
+		<filename>images/Shape5_University_bottomgradient.png</filename>
+		<filename>images/Shape5_University_bottommodgradient.png</filename>
+		<filename>images/Shape5_University_brround.png</filename>
+		<filename>images/Shape5_University_darkgradient.png</filename>
+		<filename>images/Shape5_University_darkmleft.png</filename>
+		<filename>images/Shape5_University_darkmmiddle.png</filename>			
+		<filename>images/Shape5_University_darkmright.png</filename>	
+		<filename>images/Shape5_University_ddbottom.png</filename>
+		<filename>images/Shape5_University_ddtop.png</filename>
+		<filename>images/Shape5_University_lightmleft.png</filename>
+		<filename>images/Shape5_University_lightmmiddle.png</filename>
+		<filename>images/Shape5_University_lightmright.png</filename>
+		<filename>images/Shape5_University_logo.png</filename>
+		<filename>images/Shape5_University_menuback.png</filename>			
+		<filename>images/Shape5_University_menuleft.png</filename>	
+		<filename>images/Shape5_University_menumiddle.png</filename>
+		<filename>images/Shape5_University_mlround.png</filename>
+		<filename>images/Shape5_University_mrround.png</filename>
+		<filename>images/Shape5_University_readmore.png</filename>
+		<filename>images/Shape5_University_rssicon.png</filename>
+		<filename>images/Shape5_University_searchback.png</filename>
+		<filename>images/Shape5_University_tlround.png</filename>			
+		<filename>images/Shape5_University_tlsearch.png</filename>	
+		<filename>images/Shape5_University_tlsearchh.png</filename>
+		<filename>images/Shape5_University_tmround.png</filename>
+		<filename>images/Shape5_University_tmsearch.png</filename>
+		<filename>images/Shape5_University_tmsearchh.png</filename>
+		<filename>images/Shape5_University_topbackpixel.png</filename>
+		<filename>images/Shape5_University_topgradient.png</filename>
+		<filename>images/Shape5_University_toprepeat.png</filename>			
+		<filename>images/Shape5_University_trround.png</filename>	
+		<filename>images/Shape5_University_trsearch.png</filename>
+		<filename>images/Shape5_University_trsearchh.png</filename>		
+		<filename>images/Shape5_University_whitegradient.png</filename>
+		<filename>images/Shape5_University_wmbl.png</filename>			
+		<filename>images/Shape5_University_wmbm.png</filename>	
+		<filename>images/Shape5_University_wmbr.png</filename>
+		<filename>images/Shape5_University_wmml.png</filename>
+		<filename>images/Shape5_University_wmmr.png</filename>
+		<filename>images/Shape5_University_wmtl.png</filename>
+		<filename>images/Shape5_University_wmtm.png</filename>
+		<filename>images/Shape5_University_wmtr.png</filename>
+		<filename>images/chat.png</filename>			
+		<filename>images/notes.png</filename>	
+		<filename>images/Shape5_University_ddbottom_rtl.png</filename>
+		<filename>images/Shape5_University_ddtop_rtl.png</filename>	
+		<filename>images/Shape5_University_ddmiddle_rtl.png</filename>
+		<filename>images/Shape5_fusion_inputback.png</filename>		
+		<filename>images/multibox/close.png</filename>	
+		<filename>images/multibox/left.png</filename>	
+		<filename>images/multibox/leftDisabled.png</filename>	
+		<filename>images/multibox/loader.gif</filename>	
+		<filename>images/multibox/right.png</filename>	
+		<filename>images/multibox/rightDisabled.png</filename>	
+		<filename>images/green/Shape5_University_ddbottom_rtl.png</filename>	
+		<filename>images/green/Shape5_University_ddmiddle_rtl.png</filename>
+		<filename>images/green/Shape5_University_ddtop_rtl.png</filename>
+		<filename>images/green/Shape5_University_trsearchh.png</filename>
+		<filename>images/green/Shape5_University_trsearch.png</filename>			
+		<filename>images/green/Shape5_University_toprepeat.png</filename>	
+		<filename>images/green/Shape5_University_tmsearchh.png</filename>
+		<filename>images/green/Shape5_University_tmsearch.png</filename>
+		<filename>images/green/Shape5_University_tlsearchh.png</filename>
+		<filename>images/green/Shape5_University_tlsearch.png</filename>
+		<filename>images/green/Shape5_University_menuright.png</filename>
+		<filename>images/green/Shape5_University_menumiddle.png</filename>
+		<filename>images/green/Shape5_University_menuleft.png</filename>			
+		<filename>images/green/Shape5_University_ddmiddle.png</filename>	
+		<filename>images/green/Shape5_University_ddbottom.png</filename>
+		<filename>images/green/Shape5_University_ddtop.png</filename>
+		<filename>images/green/Shape5_University_menuback.png</filename>
+		<filename>images/green/Shape5_University_glow.png</filename>
+		<filename>images/green/Shape5_University_rssicon.png</filename>
+		<filename>images/green/Shape5_University_logo.png</filename>
+		<filename>images/gray/Shape5_University_ddbottom_rtl.png</filename>	
+		<filename>images/gray/Shape5_University_ddmiddle_rtl.png</filename>
+		<filename>images/gray/Shape5_University_ddtop_rtl.png</filename>
+		<filename>images/gray/Shape5_University_trsearchh.png</filename>
+		<filename>images/gray/Shape5_University_trsearch.png</filename>			
+		<filename>images/gray/Shape5_University_toprepeat.png</filename>	
+		<filename>images/gray/Shape5_University_tmsearchh.png</filename>
+		<filename>images/gray/Shape5_University_tmsearch.png</filename>
+		<filename>images/gray/Shape5_University_tlsearchh.png</filename>
+		<filename>images/gray/Shape5_University_tlsearch.png</filename>
+		<filename>images/gray/Shape5_University_menuright.png</filename>
+		<filename>images/gray/Shape5_University_menumiddle.png</filename>
+		<filename>images/gray/Shape5_University_menuleft.png</filename>			
+		<filename>images/gray/Shape5_University_ddmiddle.png</filename>	
+		<filename>images/gray/Shape5_University_ddbottom.png</filename>
+		<filename>images/gray/Shape5_University_ddtop.png</filename>
+		<filename>images/gray/Shape5_University_menuback.png</filename>
+		<filename>images/gray/Shape5_University_glow.png</filename>
+		<filename>images/gray/Shape5_University_rssicon.png</filename>
+		<filename>images/gray/Shape5_University_logo.png</filename>			
+		<filename>images/brown/Shape5_University_ddbottom_rtl.png</filename>	
+		<filename>images/brown/Shape5_University_ddmiddle_rtl.png</filename>
+		<filename>images/brown/Shape5_University_ddtop_rtl.png</filename>
+		<filename>images/brown/Shape5_University_trsearchh.png</filename>
+		<filename>images/brown/Shape5_University_trsearch.png</filename>			
+		<filename>images/brown/Shape5_University_toprepeat.png</filename>	
+		<filename>images/brown/Shape5_University_tmsearchh.png</filename>
+		<filename>images/brown/Shape5_University_tmsearch.png</filename>
+		<filename>images/brown/Shape5_University_tlsearchh.png</filename>
+		<filename>images/brown/Shape5_University_tlsearch.png</filename>
+		<filename>images/brown/Shape5_University_menuright.png</filename>
+		<filename>images/brown/Shape5_University_menumiddle.png</filename>
+		<filename>images/brown/Shape5_University_menuleft.png</filename>			
+		<filename>images/brown/Shape5_University_ddmiddle.png</filename>	
+		<filename>images/brown/Shape5_University_ddbottom.png</filename>
+		<filename>images/brown/Shape5_University_ddtop.png</filename>
+		<filename>images/brown/Shape5_University_menuback.png</filename>
+		<filename>images/brown/Shape5_University_glow.png</filename>
+		<filename>images/brown/Shape5_University_rssicon.png</filename>
+		<filename>images/brown/Shape5_University_logo.png</filename>	
+		<filename>images/red/Shape5_University_darkmleft.png</filename>	
+		<filename>images/red/Shape5_University_ddbottom_rtl.png</filename>
+		<filename>images/red/Shape5_University_ddmiddle_rtl.png</filename>
+		<filename>images/red/Shape5_University_ddtop_rtl.png</filename>
+		<filename>images/red/Shape5_University_darkmmiddle.png</filename>			
+		<filename>images/red/Shape5_University_darkmright.png</filename>	
+		<filename>images/red/Shape5_University_ddbottom.png</filename>
+		<filename>images/red/Shape5_University_ddmiddle.png</filename>
+		<filename>images/red/Shape5_University_ddtop.png</filename>
+		<filename>images/red/Shape5_University_glow.png</filename>
+		<filename>images/red/Shape5_University_tmsearchh.png</filename>
+		<filename>images/red/Shape5_University_tlsearch.png</filename>
+		<filename>images/red/Shape5_University_tlsearchh.png</filename>	
+		<filename>images/red/Shape5_University_trsearch.png</filename>	
+		<filename>images/red/Shape5_University_menuleft.png</filename>
+		<filename>images/red/Shape5_University_menumiddle.png</filename>
+		<filename>images/red/Shape5_University_menuright.png</filename>
+		<filename>images/red/Shape5_University_logo.png</filename>
+		<filename>images/red/Shape5_University_trsearchh.png</filename>
+		<filename>images/red/Shape5_University_tmsearch.png</filename>	
+		<filename>images/red/Shape5_University_menuback.png</filename>	
+		<filename>images/red/Shape5_University_toprepeat.png</filename>			
+		<filename>images/typography/s5_left_quote.gif</filename>
+		<filename>images/typography/s5_li_number1.gif</filename>
+		<filename>images/typography/s5_li_number2.gif</filename>
+		<filename>images/typography/s5_li_number3.gif</filename>
+		<filename>images/typography/s5_li_number4.gif</filename>
+		<filename>images/typography/s5_li_number5.gif</filename>
+		<filename>images/typography/s5_li_number6.gif</filename>
+		<filename>images/typography/s5_li_number7.gif</filename>
+		<filename>images/typography/s5_li_number8.gif</filename>
+		<filename>images/typography/s5_li_number9.gif</filename>
+		<filename>images/typography/s5_right_quote.gif</filename>
+		<filename>images/typography/s5_ul_bullet.gif</filename>
+		<filename>images/typography/star.gif</filename>
+		<filename>images/typography/s5_bullet_small.png</filename>
+		<filename>images/typography/s5_left_quote.png</filename>
+		<filename>images/typography/s5_li_number1.png</filename>
+		<filename>images/typography/s5_li_number2.png</filename>
+		<filename>images/typography/s5_li_number3.png</filename>
+		<filename>images/typography/s5_li_number4.png</filename>
+		<filename>images/typography/s5_li_number5.png</filename>
+		<filename>images/typography/s5_li_number6.png</filename>
+		<filename>images/typography/s5_li_number7.png</filename>
+		<filename>images/typography/s5_li_number8.png</filename>
+		<filename>images/typography/s5_li_number9.png</filename>
+		<filename>images/typography/s5_right_quote.png</filename>
+		<filename>images/typography/s5_ul_arrow.png</filename>
+		<filename>images/typography/s5_ul_bullet.png</filename>
+		<filename>images/typography/s5_ul_star.png</filename>	
+		<filename>images/typography/s5typob_bl.jpg</filename>
+		<filename>images/typography/s5typob_br.jpg</filename>
+		<filename>images/typography/s5typob_point.jpg</filename>
+		<filename>images/typography/s5typob_tl.jpg</filename>
+		<filename>images/typography/s5typob_tr.jpg</filename>
+		<filename>images/typography/s5typodg_bl.jpg</filename>
+		<filename>images/typography/s5typodg_br.jpg</filename>
+		<filename>images/typography/s5typodg_point.jpg</filename>
+		<filename>images/typography/s5typodg_tl.jpg</filename>
+		<filename>images/typography/s5typodg_tr.jpg</filename>
+		<filename>images/typography/s5typog_bl.jpg</filename>	
+		<filename>images/typography/s5typog_br.jpg</filename>
+		<filename>images/typography/s5typog_point.jpg</filename>
+		<filename>images/typography/s5typog_tl.jpg</filename>
+		<filename>images/typography/s5typog_tr.jpg</filename>
+		<filename>images/typography/s5typor_bl.jpg</filename>
+		<filename>images/typography/s5typor_br.jpg</filename>
+		<filename>images/typography/s5typor_point.jpg</filename>
+		<filename>images/typography/s5typor_tl.jpg</filename>
+		<filename>images/typography/s5typor_tr.jpg</filename>
+		<filename>template_thumbnail.png</filename>	
+	</images>
+	<css>
+		<filename>css/template.css</filename>
+		<filename>css/multibox/ajax.css</filename>
+		<filename>css/multibox/ie6.css</filename>
+		<filename>css/multibox/multibox.css</filename>
+		<filename>css/suckerfish.css</filename>
+		<filename>css/editor.css</filename>
+		<filename>css/editor_rtl.css</filename>
+		<filename>css/template_rtl.css</filename>
+		<filename>css/gray.css</filename>
+		<filename>css/red.css</filename>
+		<filename>css/green.css</filename>
+		<filename>css/brown.css</filename>
+	</css>
+	<positions>
+		<position>left</position>
+		<position>breadcrumb</position>
+		<position>inset</position>
+		<position>banner</position>
+		<position>right</position>
+		<position>login</position>
+		<position>register</position>
+		<position>debug</position>
+		<position>search</position>
+		<position>above_body_1</position>
+		<position>above_body_2</position>
+		<position>above_body_3</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>top_1</position>
+		<position>top_2</position>
+		<position>top_3</position>
+		<position>top_4</position>
+		<position>top_5</position>
+		<position>top_6</position>		
+		<position>contentbottom1</position>
+		<position>contentbottom2</position>
+		<position>contentbottom3</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>bottom</position>	
+		<position>s5_tab1</position>
+		<position>s5_tab2</position>
+		<position>s5_tab3</position>
+	</positions>
+	<params>
+		<param name="spacer1" type="spacer" default="Make sure to hover your mouse over each title in this column for a full description of what each field does." />
+		<param name="xml_menuname" type="menu" default="" label="Menu Name" description="What menu would you like to use for the default default menu?" />
+		<param name="xml_s5_widthtype" type="list" default="" label="Choose Fluid or Fixed" description="Fluid Width: Allow your site to stretch per screen resolution choose a width percentage by entering something between 1-100 below.  Fixed Width: Set your screen to a fixed pixel width below, Clarity demo is 965.">
+			<option value="%">Fluid</option>
+			<option value="px">Fixed</option>
+		</param>
+		<param name="xml_s5_moover" type="radio" default="" label="Template Mootools Version" description="Choose your mootools library version">
+			<option value="moo112">Mootools 1.12</option>
+			<option value="moo124">Mootools 1.2.4</option>
+		</param>
+		<param name="xml_s5_body_width" type="text" default="" label="Body Width" description="If you choose Fluid Width: Allow your site to stretch per screen resolution choose a width percentage by entering something between 1-100.  If you choose Fixed Width: Set your screen to a fixed pixel width Clarity demo is 965." />
+		<param name="xml_s5_left_width" type="text" default="" label="Left Column Width" description="What width in pixels would you like the left column to be?" />
+		<param name="xml_s5_right_width" type="text" default="" label="Right Column Width" description="What width in pixels would you like the right column to be?" />	
+		<param name="xml_s5_inset_width" type="text" default="" label="Inset Width" description="What width in pixels would you like the inset to be?" />
+		<param name="xml_s5_jsmenu" type="list" default="" label="Effect Script" description="Choose which script you would like to power the drop down menu.">
+			<option value="jq">jQuery</option>
+			<option value="s5">S5 Effects</option>
+		</param>	
+		<param name="xml_s5_menu" type="list" default="" label="Menu Type" description="Enter in 1 for No-MooMenu, 2 for Suckerfish, 3 for Fading No-Moo, or 4 for Nothing">
+			<option value="1">S5 Drop In No-MooMenu</option>
+			<option value="3">S5 Fading No-MooMenu</option>
+			<option value="4">S5 Scroll Down No-MooMenu</option>
+			<option value="2">Suckerfish</option>
+			<option value="5">No Menu</option>
+		</param>	
+		<param name="xml_s5_text_menu_1" type="text" default="" label="Text label 1" description="Enter what sub text you would like for the first menu item" />
+		<param name="xml_s5_text_menu_2" type="text" default="" label="Text label 2" description="Enter what sub text you would like for the second menu item" />
+		<param name="xml_s5_text_menu_3" type="text" default="" label="Text label 3" description="Enter what sub text you would like for the third menu item" />
+		<param name="xml_s5_text_menu_4" type="text" default="" label="Text label 4" description="Enter what sub text you would like for the fourth menu item" />
+		<param name="xml_s5_text_menu_5" type="text" default="" label="Text label 5" description="Enter what sub text you would like for the fifth menu item" />
+		<param name="xml_s5_text_menu_6" type="text" default="" label="Text label 6" description="Enter what sub text you would like for the sixth menu item" />
+		<param name="xml_s5_text_menu_7" type="text" default="" label="Text label 7" description="Enter what sub text you would like for the seventh menu item" />
+		<param name="xml_s5_text_menu_8" type="text" default="" label="Text label 8" description="Enter what sub text you would like for the eighth menu item" />
+		<param name="xml_s5_text_menu_9" type="text" default="" label="Text label 9" description="Enter what sub text you would like for the nineth menu item" />
+		<param name="xml_s5_text_menu_10" type="text" default="" label="Text label 10" description="Enter what sub text you would like for the tenth menu item" />				
+		<param name="xml_s5_subtext" type="list" default="" label="Enable Subtext" description="Choose to enable the sub text on the drop down menu.">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>
+		<param name="xml_s5_colors" type="list" default="" label="Site Color Theme" description="Choose your site colors from the presets.">
+			<option value="default">Default</option>
+			<option value="gray">Gray</option>
+			<option value="brown">Brown</option>
+			<option value="green">Green</option>
+			<option value="red">Red</option>
+		</param>
+		<param name="xml_s5_frontpage" type="list" default="" label="Would You Like The Component and Article Area Shown On The Frontpage?" description="Choose whether or not to show the component and article section on the frontpage of the site.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+
+		<param name="xml_s5_login" type="text" default="" label="Login Text" description="Enter the text you desire for the login button" />
+		<param name="xml_s5_loginout" type="text" default="" label="Logout Text" description="Enter the text you desire for the logout button once users are logged in." />
+		<param name="xml_s5_register" type="text" default="" label="Register Text" description="Enter the text you desire for the register button" />
+		<param name="xml_s5_rssl" type="text" default="index.php?format=feed&amp;type=rss" label="RSS Link" description="Enter the URL you desire for the rss icon on click link" />
+		<param name="xml_s5_backcolor" type="text" default="" label="Background Color" description="Enter the HEX color for the background color for your site. Enter transparent for none." />
+		<param name="xml_s5_mbbackcolor" type="text" default="" label="Main Body Background Color" description="Enter the HEX color for the background color of the main body. Enter transparent for none." />
+		<param name="xml_s5_topback" type="text" default="" label="Top Background" description="Enter the URL to a background image that will appear throughout the top of your site. Leave blank for none." />
+		<param name="xml_s5_headerback" type="text" default="" label="Body Background" description="Enter the URL to a background image that will repeat throughout the body of your site. Leave blank for none." />
+		<param name="xml_s5_bottomback" type="text" default="" label="Bottom Background" description="Enter the URL to a background image that will appear throughout the bottom of your site. Leave blank for none." />
+		
+		<param name="xml_s5_seourl" type="text" default="" label="Your Site URL if SEO enabled" description="If you turn on SEO URLs and your site loses its CSS formatting and flat out doesn't work enter your full site url here.  Example: http://www.mysite.com" />
+		<param name="xml_s5_tooltips" type="list" default="" label="Enable Tooltips?" description="Enable the tooltips feature for your site  NOTE: it is highly recommened to disable if you are not planning to use">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>	
+		<param name="xml_s5_multibox" type="list" default="" label="Enable Multibox?" description="Enable the multibox feature for your images  NOTE: it is highly recommened to disable if you are not planning to use">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		<param name="xml_s5_multioverlay" type="list" default="" label="Enable Multibox Overlay?" description="Enable the multibox overlay feature.">
+			<option value="true">yes</option>
+			<option value="false">no</option>
+		</param>
+		
+		
+		<param name="xml_s5_multicontrols" type="list" default="" label="Enable Multibox Controls?" description="Enable the multibox controls.">
+			<option value="true">yes</option>
+			<option value="false">no</option>
+		</param>
+		
+	
+		
+		</params>
+</extension>
